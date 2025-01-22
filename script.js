@@ -23,6 +23,7 @@ const typed = new Typed('.multiple-text', {
     loop: true,
 });
 
+// for Skills Section
 const defaultSkill = 'html';
 
 function showDescription(skill){
@@ -38,29 +39,7 @@ window.onload = function(){
     showDescription(defaultSkill);
 }
 
-
-// document.getElementById("contact-form").onsubmit = function(event){
-//     event.preventDefault(); // Prevent is use form refreshing the form page
-
-//     var name = document.getElementById("name").value;
-//     var email = document.getElementById("email").value;
-//     var number = document.getElementById("number").value;
-
-//     Email.send({
-//         SecureToken: "smtp.mailendo.com",
-//         To: 'anujmaurya9977@gmail.com',
-//         From: email,
-
-//         Subject: "New Message from Contact From",
-//         Body: 'Name: ${name} <br> Email: ${email} <br> Number: ${number}'
-//     }).then(function(response){
-//         alert("Message sent successfully!");
-//         document.getElementById("contact").reset();
-//     }).catch(function(error){
-//         alert("Error sending message. Plese try again later.");
-//     });
-// }
-
+// for Contact Section
 function sendmail(){
 
     var Name = $('#name').val();
@@ -71,7 +50,7 @@ function sendmail(){
 Email.send({
     Host : "smtp.gmail.com",
     Username : "anujmaurya9977@gmail.com",
-    Password : "anuj9977@",
+    Password : "********",
     To : 'anujmaurya4598@gmail.com',
     From : "anujmaurya9977@gmail.com",
     Subject : "New mail on contact form from :"+name,
