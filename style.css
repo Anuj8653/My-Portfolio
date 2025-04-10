@@ -404,7 +404,7 @@ span {
     }
 }
 
-@media(max-width: 786px) {
+@media(max-width: 768px) {
 
     .header{
         background-color: #1d0303;
