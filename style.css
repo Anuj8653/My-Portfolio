@@ -488,22 +488,18 @@ span {
 
     .home-img img {
         width: 50vw;
-        margin-top: 5rem;
+        margin-top: 4rem;
         flex-direction: column;
     }
 
     .social-media a {
         height: 50px;
         width: 50px;
-        font-size: 3rem;
+        font-size: 2rem;
     }
     
     .about{
         flex-direction: column-reverse;
-    }
-
-    .skills-items {
-        flex-direction: column;
     }
 
     .about-img img {
@@ -511,8 +507,17 @@ span {
         margin-top: 8rem;
     }
 
+    .skills-items {
+        flex-direction: column;
+    }
+
     .skills-icons .icon {
         margin: 0.9rem ;
+    }
+
+    .skills-content {
+    width: 60vw;
+    height: 40vh;
     }
 
 }
