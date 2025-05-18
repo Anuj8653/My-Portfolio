@@ -91,7 +91,7 @@ section {
 .home-img img {
     width: 20vw;
     animation: floatimage 4s ease-in-out;
-    border-radius: 50%;
+    border-radius: 100%;
     box-shadow: 0 0 25px #1d0303;
     cursor: pointer;
     transition: 0.4s ease-in-out;
@@ -223,13 +223,13 @@ span {
     line-height: 2;
 }
 
+.about-content h3 {
+    font-size: 3.7rem;
+}
+
 .about-content p {
     font-size: 2.5rem;
     margin: 2rem 0 3rem;
-}
-
-.about-content h3 {
-    font-size: 3.7rem;
 }
 
 /* Skill Section */
@@ -513,6 +513,7 @@ span {
 
     .skills-icons .icon {
         margin: 0.9rem ;
+        width: 10rem;
     }
 
     .skills-content {
