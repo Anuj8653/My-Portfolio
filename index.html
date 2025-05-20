@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anuj Maurya</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font awesome library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <a href="#home" class="logo">ANUJM.</a>
+        <nav class="navbar" id="navbar">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+        <div class="menu-icon" id="menu-icon">
+            <i class='fas fa-bars'></i>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's me</h3>
+            <h1>Anuj Maurya</h1>
+            <h3>and I'm a <span class="multiple-text"></span></h3>
+            <p>As a website developer, I specialize in utilizing advanced technologies and AI to build
+                intuitive,efficient, and adaptive web solutions. My goal is to create digital platforms that not only
+                perform seamlessly but also provide exceptional user experiences.</p>
+            <div class="social-media">
+                <a href="https://github.com/Anuj8653"><i class="fab fa-github fa-2xl"></i></a>
+                <a href="https://www.linkedin.com/in/anuj-maurya-58468a283"><i class="fab fa-linkedin fa-2xl"></i></a>
+                <a href="https://www.instagram.com/_anujmaurya__45"><i class="fab fa-instagram fa-2xl"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=61553120159069"><i
+                        class="fab fa-facebook fa-2xl"></i></a>
+            </div>
+            <a href="My-Resume.pdf" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="Image/img1.jpg" alt="Profile Image">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="Image/img2.jpg" alt="About Image">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>I'm a <span>Website Developer</span></h3>
+            <p>As a B.Tech Computer Science student passionate about leveraging technology to solve real-world problems. With a strong foundation in programming languages like Python, Java, and C, I have worked on projects involving web development, Software development and algorithm design. My interests lie in  Web Development, software Development and Cloud Computing, and I am constantly exploring new tools and technologies to enhance my skills. I thrive on challenges, enjoy collaborating with teams, and have participated in hackathons and coding competitions that sharpened my problem-solving abilities. Outside academics, I love experimenting with innovative ideas and staying updated on the latest trends in technology.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <h2 class="heading"><span>Skills</span></h2>
+        <div class="skills-items">
+            <div class="skills-icons">
+                <div class="icon" onclick="showDescription('html')">
+                    <img width="38" height="38" src="https://img.icons8.com/color/38/html-5--v1.png" alt="html-5" />
+                </div>
+                <div class="icon" onclick="showDescription('css')">
+                    <img width="38" height="38" src="https://img.icons8.com/color/38/css3.png" alt="css3" />
+                </div>
+                <div class="icon" onclick="showDescription('javascript')">
+                    <img width="38" height="38" src="https://img.icons8.com/color/38/javascript--v1.png" alt="javascript" />
+                </div>
+                <div class="icon" onclick="showDescription('bootstrap')">
+                    <img width="38" height="38" src="https://img.icons8.com/color-glass/38/bootstrap.png" alt="bootstrap" />
+                </div>
+                <div class="icon" onclick="showDescription('react')">
+                    <img width="38" height="38" src="https://img.icons8.com/ultraviolet/40/react--v1.png" alt="react" />
+                </div>
+                <div class="icon" onclick="showDescription('node-js')">
+                    <img width="38" height="38" src="https://img.icons8.com/fluency/38/node-js.png" alt="node-js" />
+                </div>
+                <div class="icon" onclick="showDescription('ejs')">
+                    <img width="38" height="38" src="https://img.icons8.com/color/38/ejs.png" alt="ejs" />
+                </div>
+                <div class="icon" onclick="showDescription('mongodb')">
+                    <img width="38" height="38" src="https://img.icons8.com/color/38/mongodb.png" alt="mongodb" />
+                </div>
+                <div class="icon" onclick="showDescription('mysql')">
+                    <img width="38" height="38" src="https://img.icons8.com/color/38/mysql-logo.png" alt="mysql" />
+                </div>
+                <div class="icon" onclick="showDescription('c-programming')">
+                    <img width="38" height="38" src="https://img.icons8.com/color/38/c-programming.png" alt="c-programming" />
+                </div>
+                <div class="icon" onclick="showDescription('java')">
+                    <img width="38" height="38" src="https://img.icons8.com/color/38/java-coffee-cup-logo--v1.png" alt="java" />
+                </div>
+                <div class="icon" onclick="showDescription('python')">
+                    <img width="38" height="38" src="https://img.icons8.com/color/38/python--v1.png" alt="python" />
+                </div>
+                <div class="icon" onclick="showDescription('vs-code')">
+                    <img width="38" height="38" src="https://img.icons8.com/color/38/visual-studio--v1.png" alt="vs-code" />
+                </div>
+                <div class="icon" onclick="showDescription('github')">
+                    <img width="38" height="38" src="https://img.icons8.com/windows/32/github.png" alt="github" />
+                </div>
+                <div class="icon" onclick="showDescription('git')">
+                    <img width="38" height="38" src="https://img.icons8.com/color/38/git.png" alt="git" />
+                </div>
+            </div>
+            <div class="skills-content">
+                <div class="skill-description" id="html">
+                    <h3>HTML</h3>
+                    <p>HTML (HyperText Markup Language) is the foundation of web pages, used to structure and display content. It defines elements like headings, paragraphs, links, and images using tags. HTML creates the basic skeleton of a webpage and helps organize the content.</p>
+                </div>
+                <div class="skill-description" id="css">
+                    <h3>CSS</h3>
+                    <p>CSS (Cascading Style Sheets) is responsible for the visual presentation of a webpage. It controls elements like layout, colors, fonts, margins, and spacing. By separating content (HTML) from design (CSS), it makes websites more maintainable and easier to style across different pages.</p>
+                </div>
+                <div class="skill-description" id="javascript">
+                    <h3>javaScript</h3>
+                    <p>JavaScript is a scripting language that brings interactivity to websites. It enables dynamic content like form validation, real-time updates, animations, and handling user events (clicks, hover, etc.). JavaScript runs on the browser, allowing for a more engaging user experience without needing to reload the page.</p>
+                </div>
+                <div class="skill-description" id="bootstrap">
+                    <h3>Bootstrap</h3>
+                    <p>Bootstrap is a popular front-end framework used for designing responsive, mobile-first websites. It provides ready-to-use components like grids, buttons, forms, navigation bars, and much more. It's built with HTML, CSS, and JavaScript, making it easy to create modern, responsive designs without having to write extensive CSS.</p>
+                </div>
+                <div class="skill-description" id="react">
+                    <h3>React</h3>
+                    <p>React is a JavaScript library developed by Facebook for building user interfaces, especially single-page applications. It uses a component-based architecture that allows developers to create reusable UI components. React is known for its performance and flexibility, and it works by updating only parts of the DOM that change, making applications faster.</p>
+                </div>
+                <div class="skill-description" id="node-js">
+                    <h3>Node.js</h3>
+                    <p> Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine that allows developers to build server-side applications. It’s non-blocking, event-driven, and highly scalable, which makes it perfect for real-time applications like chat apps or streaming services. Node.js enables JavaScript to be used for both frontend and backend development.</p>
+                </div>
+                <div class="skill-description" id="ejs">
+                    <h3>EJS</h3>
+                    <p>EJS(Embedded JavaScript) is a templating engine for JavaScript that allows you to embed JavaScript logic within HTML. It's commonly used with Node.js to generate dynamic HTML content by including server-side logic inside the template. It’s lightweight and easy to integrate into applications.</p>
+                </div>
+                <div class="skill-description" id="mongodb">
+                    <h3>MongoDB</h3>
+                    <p>MongoDB is a NoSQL database that stores data in flexible, JSON-like documents, allowing fields to vary from document to document. It’s designed for scalability and high performance, making it a popular choice for web applications that need to handle large volumes of unstructured data or require horizontal scaling.</p>
+                </div>
+                <div class="skill-description" id="mysql">
+                    <h3>MySQL</h3>
+                    <p>MySQL is a relational database management system that uses structured query language (SQL) for managing data. It is widely used for web applications and stores data in tables with predefined schemas. MySQL is known for its reliability, ease of use, and wide adoption in many businesses.</p>
+                </div>
+                <div class="skill-description" id="c-programming">
+                    <h3>C Language</h3>
+                    <p>C is a high-level, general-purpose programming language that has been around for decades. It's widely used for system programming and applications requiring high performance. C provides low-level access to memory, which gives it a greater control over hardware and makes it ideal for writing operating systems and embedded systems.
+    
+                    </p>
+                </div>
+                <div class="skill-description" id="java">
+                    <h3>Java</h3>
+                    <p>Java is a widely used, object-oriented programming language that is designed to be platform-independent, allowing developers to write code that can run on any machine with a Java Virtual Machine (JVM). It’s used in a variety of applications, from mobile (Android apps) to large enterprise systems and web services.</p>
+                </div>
+                <div class="skill-description" id="python">
+                    <h3>Python</h3>
+                    <p>Python is a versatile, high-level programming language known for its readability and simplicity. It supports multiple programming paradigms, including procedural, object-oriented, and functional programming. Python is widely used in data science, machine learning, web development, automation, and many other domains due to its extensive libraries and community support.</p>
+                </div>
+                <div class="skill-description" id="vs-code">
+                    <h3>VS Code</h3>
+                    <p>Visual Studio Code (VS Code) is a lightweight and powerful code editor developed by Microsoft. It supports a wide range of programming languages and features like syntax highlighting, debugging, version control integration, and extensions, making it popular among developers for both web and software development.</p>
+                </div>
+                <div class="skill-description" id="github">
+                    <h3>GitHub</h3>
+                    <p> GitHub is a web-based platform that hosts Git repositories. It provides version control and collaboration features, allowing developers to share code, track issues, and work together on projects. GitHub also supports Git workflows, enabling easy integration with CI/CD pipelines, code reviews, and community contributions.</p>
+                </div>
+                <div class="skill-description" id="git">
+                    <h3>Git</h3>
+                    <p>Git is a distributed version control system that allows multiple developers to work on a project simultaneously, track changes, and manage versions. It’s essential for managing source code in collaborative environments. Git allows you to commit changes, create branches, merge work, and roll back to previous versions of the code.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Project Section-->
+    <section class="projects" id="projects">
+       <h2 class="heading"><span>Projects</span></h2>
+       <div class="projects-container">
+
+            <div class="project-box">
+                <img src="Image/img3.png" alt="Portfolio Website">
+                <div class="project-layer">
+                    <h4>Portfolio Website</h4>
+                    <p>Responsive personal portfolio showcasing skills, projects, and contact information.</p>
+                    <a href="https://anujmauryaportfolio.netlify.app/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <img src="Image/img4.jpeg" alt="Weather Application">
+                <div class="project-layer">
+                    <h4>Weather App</h4>
+                    <p>Real-time weather forecasting application with location detection and 5-day forecasts.</p>
+                    <a href="https://weather-app-7965.netlify.app/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="f203b75d-47ae-4b4f-a5d7-7d0c006b56d6">
+            <div class="input-box">
+                <input type="text" id="name" name="name" required placeholder="Full Name*">
+                <input type="email" id="email" name="email" placeholder="Email*">
+            </div>
+            <div class="input-box">
+                <input type="number" id="number" name="number" placeholder="Phone*">
+                <input type="text" id="company" name="subject" placeholder="Company">
+            </div>
+            <textarea name="message" id="message" cols="20" rows="10" placeholder="Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!-- Footer Section -->/
+    <footer class="footer">
+        <div class="social-media">
+            <a href="https://github.com/Anuj8653"><i class="fab fa-github fa-xl"></i></a>
+            <a href="https://www.linkedin.com/in/anuj-maurya-58468a283"><i class="fab fa-linkedin fa-xl"></i></a>
+            <a href="https://www.instagram.com/_anujmaurya__45"><i class="fab fa-instagram fa-xl"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61553120159069"><i class="fab fa-facebook fa-xl"></i></a>
+        </div>
+        <p class="copyright">
+            &copy; Copyright 2025 anujmauryaportfolio --&hearts; All Rights Reserved<br>Created by Anuj Maurya
+        </p>
+    </footer>
+
+    <!-- Typing-Text-address -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- For mail adress -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <!-- link javascript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
